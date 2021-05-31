@@ -11,7 +11,6 @@
     <body>
         <div class="header">
             <img src="khan.png" class="center" height="210px" width="260px"><br><br>
-            
             <div class="menu">
                 <a href="home.html"><img src="button_home .png"></a>
                 <a href="wishlist.html"><img src="button_Wishlist.png"></a>
@@ -24,8 +23,27 @@
              </div>
              </div>
         <div class="main-content">
-            <h2>These are the offers available</h2>
-            <img src="offers.jpg" height="300px" width="500px">
+            <form action="/action_page.php">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value=""><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value=""><br>
+                <label for="email">Email:</label><br>
+  <input type="text" id="email" name="email"><br>
+  <label for="pwd">Password:</label><br>
+  <input type="password" id="pwd" name="pwd"><br><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label><br><br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset"
+              </form> 
+               
+              
+            
 
         </div>
         <div class="footer">
